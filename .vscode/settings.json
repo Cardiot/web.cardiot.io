@@ -1,0 +1,128 @@
+{
+  // Editor
+  "editor.fontFamily": "'FiraCode Nerd Font Mono' ,Consolas, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  // Terminal
+  "terminal.explorerKind": "integrated",
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.cursorStyle": "block",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["-l"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.tabs.enabled": true,
+  // Workbench
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.activityBar.iconClickBehavior": "focus",
+  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "workbench.editor.enablePreview": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.sideBar.location": "left",
+  "workbench.view.alwaysShowHeaderActions": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.showIcons": true,
+  "workbench.tree.indent": 4,
+  "workbench.statusBar.visible": true,
+  "workbench.editor.showTabs": true,
+  // Files
+  "files.eol": "\n",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000,
+  "files.enableTrash": true,
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "files.encoding": "utf8",
+  "files.associations": {
+    "*.html": "html",
+    "*.css": "css",
+    "*.scss": "scss",
+    "*.js": "javascript",
+    "*.jsx": "javascriptreact",
+    "*.ts": "typescript",
+    "*.tsx": "typescriptreact",
+    "commit-msg": "shellscript",
+    "pre-push": "shellscript",
+    "pre-commit": "shellscript"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  // Explorer
+  "explorer.fileNesting.enabled": true,
+  "explorer.enableDragAndDrop": true,
+  "explorer.decorations.badges": true,
+  "explorer.decorations.colors": true,
+  "explorer.excludeGitIgnore": false,
+  "explorer.openEditors.sortOrder": "alphabetical",
+  "explorer.autoReveal": "focusNoScroll",
+  "explorer.confirmUndo": "default",
+  "explorer.confirmDelete": true,
+  "explorer.compactFolders": true,
+  "explorer.sortOrder": "default",
+  // Search
+  "search.defaultViewMode": "list"
+}

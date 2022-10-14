@@ -1,0 +1,26 @@
+{
+  "recommendations": [
+    "miguelsolorio.fluent-icons",
+    "ms-vscode-remote.remote-containers",
+    "ms-azuretools.vscode-docker",
+    "mikestead.dotenv",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "github.github-vscode-theme",
+    "eamodio.gitlens",
+    "oderwat.indent-rainbow",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "wayou.vscode-todo-highlight",
+    "gruntfuggly.todo-tree",
+    "pflannery.vscode-versionlens",
+    "vscode-icons-team.vscode-icons",
+    "ms-vscode-remote.remote-wsl",
+    "redhat.vscode-yaml",
+    "cschleiden.vscode-github-actions",
+    "me-dutour-mathieu.vscode-github-actions",
+    "wix.vscode-import-cost"
+  ]
+}

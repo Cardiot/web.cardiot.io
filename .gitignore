@@ -1,0 +1,12 @@
+# deps
+node_modules
+
+# env files
+.DS_Store
+.env
+.env.*
+*.local
+
+# prod builds
+dist
+dist-ssr

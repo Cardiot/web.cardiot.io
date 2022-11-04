@@ -1,6 +1,7 @@
 {
   "name": "web.cardiot.io",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "type": "module",
   "description": "Client-side Web Application build with React using Vite and TypeScript",
   "repository": {
     "type": "git",
@@ -28,8 +29,11 @@
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
     "@vitejs/plugin-react": "2.1.0",
+    "autoprefixer": "^10.4.13",
     "husky": "8.0.1",
+    "postcss": "^8.4.18",
     "prettier": "2.7.1",
+    "tailwindcss": "^3.2.1",
     "typescript": "4.8.4",
     "vite": "3.1.8",
     "vite-tsconfig-paths": "3.5.1"

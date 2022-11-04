@@ -17,7 +17,6 @@
     "jsx": "react-jsx",
     "baseUrl": "src"
   },
-  "types": ["vite-plugin-sentry/client"],
   "include": ["**/*.tsx", "**/*.ts", "**/*.d.ts"],
   "references": [{ "path": "tsconfig.node.json" }]
 }
